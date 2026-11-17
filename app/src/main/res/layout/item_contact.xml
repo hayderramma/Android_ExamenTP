@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivPhoto"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:contentDescription="@string/add_contact"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/btnCall"
+            app:layout_constraintStart_toEndOf="@id/ivPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPrenom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@id/btnCall"
+            app:layout_constraintStart_toEndOf="@id/ivPhoto"
+            app:layout_constraintTop_toBottomOf="@id/tvNom" />
+
+        <TextView
+            android:id="@+id/tvTelephone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@id/btnCall"
+            app:layout_constraintStart_toEndOf="@id/ivPhoto"
+            app:layout_constraintTop_toBottomOf="@id/tvPrenom" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCall"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/call"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

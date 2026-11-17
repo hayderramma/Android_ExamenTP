@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts V4</string>
+
+    <!-- Liste -->
+    <string name="search_hint">Rechercher (nom, prénom, téléphone)</string>
+    <string name="empty_list">Aucun contact. Appuyez sur + pour en créer un.</string>
+    <string name="add_contact">Nouveau contact</string>
+    <string name="call">Appeler</string>
+    <string name="settings">Paramètres</string>
+
+    <!-- Détail -->
+    <string name="contact_new">Nouveau contact</string>
+    <string name="contact_edit">Détail du contact</string>
+    <string name="hint_nom">Nom *</string>
+    <string name="hint_prenom">Prénom *</string>
+    <string name="hint_telephone">Téléphone *</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_latitude">Latitude (ex : 36.8065)</string>
+    <string name="hint_longitude">Longitude (ex : 10.1815)</string>
+    <string name="error_required">Champ obligatoire</string>
+    <string name="error_coordinates">Coordonnées invalides (lat. -90..90, long. -180..180)</string>
+    <string name="error_email">Adresse e-mail invalide</string>
+    <string name="error_insert">Insertion impossible : le contact n\'a pas été enregistré.</string>
+    <string name="error_update">Mise à jour impossible : le contact n\'a pas été modifié.</string>
+    <string name="error_not_found">Contact introuvable.</string>
+    <string name="error_phone_empty">Aucun numéro de téléphone saisi.</string>
+    <string name="error_no_dialer">Aucune application téléphone disponible.</string>
+    <string name="error_no_email_app">Aucune application e-mail disponible.</string>
+    <string name="saved">Contact enregistré.</string>
+    <string name="deleted">Contact supprimé.</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="delete_confirm_title">Supprimer ce contact ?</string>
+    <string name="delete_confirm_message">Cette action est définitive.</string>
+    <string name="from_gallery">Galerie</string>
+    <string name="from_camera">Caméra</string>
+    <string name="view_map">Voir sur la carte</string>
+    <string name="send_email">Envoyer un e-mail</string>
+    <string name="no_coordinates">Aucune coordonnée GPS valide pour ce contact.</string>
+    <string name="map_hint">Appui long sur la carte pour placer le marqueur.</string>
+    <string name="photo_error">Impossible de charger cette image.</string>
+
+    <!-- Paramètres -->
+    <string name="pref_category_display">Affichage</string>
+    <string name="pref_category_list">Liste des contacts</string>
+    <string name="pref_title_size">Taille de police</string>
+    <string name="pref_title_color">Couleur préférée du texte</string>
+    <string name="pref_title_call">Activer l\'appel depuis la liste</string>
+    <string name="pref_call_on">Bouton Appeler affiché</string>
+    <string name="pref_call_off">Bouton Appeler masqué</string>
+</resources>
